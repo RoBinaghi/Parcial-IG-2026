@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+
+#contenedor {
+	widht: 100%;
+	max.widht: 960 px;
+			}
