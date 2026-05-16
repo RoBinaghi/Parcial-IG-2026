@@ -95,9 +95,7 @@ a:active{
 
 /*Padding*/
 
-h1,h2,h3,p,img {
-  padding: 2rem;
-}
+p,img{padding: 2rem;}
 
 main p{
   text-align: center;
