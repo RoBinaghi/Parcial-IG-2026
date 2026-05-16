@@ -7,8 +7,6 @@ body{
   font-style: normal;
  color:rgba(99, 99, 99); }
 
-
-
 #contenedor {
   width: 100%;
   max-width: 960px;
@@ -27,7 +25,7 @@ margin:0 auto;
 background-color: rgba(0, 59, 140);
 color:rgba(255, 255, 255);
 text-align: center;
-padding: 1em;
+padding: 1rem;
 }   
 
 h2{
@@ -35,7 +33,7 @@ h2{
 background-color: rgba(0, 133, 224);
 color:rgba(255, 255, 255);
 text-align: center;
-padding: 1em;
+padding: 1rem;
 width: 100%;
 }
 
@@ -46,6 +44,8 @@ h3 {  font-size: 2rem;	color: rgba(0, 133, 224);
 /*Para el menu*/
 nav{padding: 1rem; 
 	background-color: #C4E0FF;}
+
+ul {list-style-type: none;}
 
 nav a { 
   padding: 1rem 1rem;
@@ -62,7 +62,14 @@ nav li{   font-family: "Arvo", serif;
   font-weight: 700;
   display:inline;
 }
+/*Estilo para listado*/
+.azul{color: rgb(0, 60, 107);}
+.celeste{color:  rgb(99, 187, 255);}
 
+.azul, .celeste{  font-family: "Arvo", serif;
+  font-weight: 700;
+}
+div li{padding: 0.2rem}
 /*Estilos de iteraccion en navegador*/
 
 
@@ -102,7 +109,7 @@ main p{
 footer{
 background-color: #C4E0FF;
 text-align: center;
-  padding: 1em;
+  padding: 0,5rem;
   }
 /*Sacarle la Itaca*/
 address {
@@ -159,8 +166,7 @@ iframe
 .bloque1 {
     display: flex;
     align-items: center;    
-    width: 100%;
-    gap: 1em;               
+    width: 100%;              
 }
 
 .bloque1 p {
